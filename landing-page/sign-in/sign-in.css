@@ -1,0 +1,261 @@
+@font-face {
+  font-family: netflix;
+  src: url(fonts/NetflixSansLight.ttf);
+}
+@font-face {
+  font-family: netflix-bold;
+  src: url(fonts/NetflixSansMedium.ttf);
+}
+@font-face {
+  font-family: netflix-slim;
+  src: url(fonts/NetflixSansThin.ttf);
+}
+
+:root {
+  --red: #db0000;
+}
+* {
+  margin-top: 0.5em;
+  box-sizing: border-box;
+  font-family: netflix;
+  color: rgb(131, 131, 131);
+}
+
+body {
+  background-color: black;
+}
+
+.logo {
+  width: 160px;
+}
+
+.sign-in-field {
+  width: 95%;
+  padding-bottom: 6em;
+  margin: 0em auto;
+  padding-top: 1em;
+  background-color: black;
+}
+
+.sign-in-btn{
+  font-family: netflix-bold;
+  color: white;
+  font-size: 18px;
+}
+
+.title,
+h1 {
+  font-family: netflix-bold;
+  font-size: 34px;
+  margin-top: 0;
+  margin-bottom: .5em;
+  color: #fff;
+}
+
+input {
+  background-color: rgb(53, 52, 52);
+  display: flex;
+  justify-content: center;
+  padding: 1.2em;
+  width: 100%;
+  margin-bottom: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+.sign-in-button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: .5em;
+}
+
+button {
+  background-color: var(--red);
+  font-size: 15px;
+  border: none;
+  border-radius: 3px;
+  align-items: center;
+  padding: 0.7em;
+  width: 100%;
+  color: #fff;
+  font-family: netflix-bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.help {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  margin: 0%;
+  font-size: 13px;
+}
+
+#remember-me {
+  width: 15px;
+  height: 15px;
+  margin: auto 0em;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(177, 177, 177);
+}
+
+.need-help a {
+  text-decoration: none;
+  color: rgb(177, 177, 177);
+}
+
+.need-help a:hover {
+  text-decoration: underline;
+}
+
+.facebook-logo {
+  width: 1em;
+  margin-top: 0;
+}
+
+.facebook {
+  display: inline-flex;
+  align-items: center;
+}
+
+.facebook-text {
+  margin-bottom: 0.5em;
+  font-size: 13px;
+}
+
+.facebook-text:hover {
+  text-decoration: none;
+}
+
+span a {
+  color: white;
+  text-decoration: none;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
+
+.recaptcha p {
+  font-size: 12px;
+
+  margin-bottom: 0%;
+}
+
+.recaptcha a {
+  margin-top: 0%;
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(106, 106, 255);
+}
+.recaptcha a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: black;
+  margin: 0%;
+  border-top: 2px solid rgb(94, 93, 93);
+}
+.footer-bg {
+  margin: 1em;
+  padding-bottom: 3em;
+}
+
+.call {
+  display: flex;
+  padding-top: 1em;
+}
+
+.number {
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 0.5em;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#language {
+  background-color: black;
+  padding: 0.9em 1.5em;
+  color: grey;
+  border-radius: 2px;
+}
+
+@media screen and (min-width: 750px) {
+  .logo {
+    width: 220px;
+    padding: 1em;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  .bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+      url(images/sign-in-background.jpeg);
+  }
+
+  .sign-in-field {
+    width: 28em;
+    padding-bottom: 4em;
+    padding-top: 2em;
+    margin: 2em auto;
+    margin-bottom: 6em;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  .sign-in-content {
+    margin: 4em;
+  }
+
+  .facebook-text {
+    padding-top: 0.5em;
+  }
+
+  .facebook-help {
+    margin: 4em;
+  }
+
+  .footer-bg {
+    margin-top: 0em;
+    margin-bottom: 0%;
+  }
+
+  .footer {
+    border-top: none;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+.call{
+  margin: 2em;
+}
+
+#language{
+  margin: 2em;
+}
+
+  .list {
+    padding: 0em 0em;
+  }
+}

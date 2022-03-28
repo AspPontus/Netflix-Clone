@@ -1,0 +1,101 @@
+@font-face {
+  font-family: netflix;
+  src: url(fonts/NetflixSansLight.ttf);
+}
+@font-face {
+  font-family: netflix-bold;
+  src: url(fonts/NetflixSansMedium.ttf);
+}
+@font-face {
+  font-family: netflix-slim;
+  src: url(fonts/NetflixSansThin.ttf);
+}
+
+:root {
+  --red: #db0000;
+}
+
+* {
+  font-family: netflix;
+  color: #fff;
+  background-color: black;
+  margin: 0%;
+  padding: 0;
+}
+
+.logo {
+  width: 100px;
+  padding: 0.5em 1em;
+}
+.heading {
+  font-size: 44px;
+}
+img {
+  width: 100%;
+}
+
+.profile-index {
+  text-align: center;
+  margin: 20% auto 0em;
+  width: 50%;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  padding: 1em;
+}
+
+.profile-image {
+  border-radius: 5px;
+}
+
+p {
+  color: grey;
+}
+
+.profile-image:hover {
+  border: 1px white solid;
+}
+
+/*Fix hover in javaScript*/
+
+.manage-profiles {
+  display: flex;
+  justify-content: center;
+}
+
+#profile-button {
+  border: rgb(146, 145, 145) 2px solid;
+  color: rgb(146, 145, 145);
+  font-size: 15px;
+  border-radius: 1px;
+  align-items: center;
+  padding: 0.4em 1.5em;
+}
+
+#profile-button:hover {
+  border: white 2px solid;
+  color: white;
+}
+@media screen and (max-width: 700px) {
+  img {
+    width: 7em;
+  }
+}
+@media screen and (min-width: 1100px) {
+  img {
+    width: 15em;
+  }
+  .profile-index {
+    margin: 14em auto 0em;
+  }
+
+  body{
+    padding-bottom: 10em;
+  }
+}

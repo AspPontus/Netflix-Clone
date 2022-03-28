@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" /> 
+    
+ 
+    <title>Document</title>
+    <script src="main.js" defer></script>
+
+
+  </head>
+  <body>
+    <header>
+        <div class="left">
+        <div class="logo">
+          <img src="images/logo.png" alt="Netflix logo" />
+        </div>
+        <div class="dropdown">
+          <button class="drop-btn">Browse &dtrif;</button>
+          <div class="dropdown-content">
+            <a class="drp-link" href="#">Home</a>
+            <a class="drp-link" href="#">Series</a>
+            <a class="drp-link" href="#">Films</a>
+            <a class="drp-link" href="#">New and Popular</a>
+            <a class="drp-link" href="#">My list</a>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="buttons">
+            <div class="icons">
+              <input type="text" placeholder="Search" id="search-bar">
+                <button onclick="search()" class="search"><img src="images/search.png" alt="" id="search"/></button>
+                <button class="bell"><img src="images/bell.png" alt="" id="bell"/></button>
+            </div>
+          
+          <button>
+            <img src="images/tabatha.jpeg" alt="" id="profile" />
+          </button>
+      </div>
+    </header>
+<section>
+  <div class="trailer">
+    <img src="images/trailers/paranormal-trailer.jpeg" alt="" id="trailer-img">
+  </div>
+</section>
+    
+
+   <div class="title"><h2>Trending</h2></div>
+    <section class="carousels">
+      
+      <div class="carousel">
+     
+        <div class="slides" data-slides >
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/arrested development.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/baby driver.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/bohemian rhapsody.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/bojack horseman.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/brooklyn 99.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/catch me if you can.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/community.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/knives out.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/nightcrawler.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/parks and recreation.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="nav-btn">
+        <button id="prev-btn">&lt;</button>
+        <button id="next-btn">&gt;</button>
+      </div>
+
+      <div class="carousel-2">
+
+        <div class="slides-2" data-slides >
+          <div class="slide-container-2">
+            <img class="slide" src="images/thumb-tiles/arrested development.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/baby driver.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/bohemian rhapsody.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/bojack horseman.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/brooklyn 99.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/catch me if you can.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/community.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/knives out.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/nightcrawler.png" alt="">
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="images/thumb-tiles/parks and recreation.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="nav-btn-2">
+        <button id="prev-btn-2">&lt;</button>
+        <button id="next-btn-2">&gt;</button>
+      </div>
+
+      <div class="slides-3" data-slides >
+        <div class="slide-container-3">
+          <img class="slide" src="images/thumb-tiles/arrested development.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/baby driver.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/bohemian rhapsody.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/bojack horseman.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/brooklyn 99.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/catch me if you can.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/community.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/knives out.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/nightcrawler.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/parks and recreation.png" alt="">
+        </div>
+      </div>
+       </div>
+      <div class="nav-btn-3">
+      <button id="prev-btn-3">&lt;</button>
+      <button id="next-btn-3">&gt;</button>
+       </div>
+
+       <div class="slides-4" data-slides >
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/arrested development.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/baby driver.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/bohemian rhapsody.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/bojack horseman.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/brooklyn 99.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/catch me if you can.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/community.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/knives out.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/nightcrawler.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/parks and recreation.png" alt="">
+        </div>
+      </div>
+       </div>
+      <div class="nav-btn-4">
+      <button id="prev-btn-4">&lt;</button>
+      <button id="next-btn-4">&gt;</button>
+       </div>
+
+       <div class="slides-5" data-slides >
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/arrested development.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/baby driver.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/bohemian rhapsody.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/bojack horseman.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/brooklyn 99.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/catch me if you can.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/community.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/knives out.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/nightcrawler.png" alt="">
+        </div>
+        <div class="slide-container">
+          <img class="slide" src="images/thumb-tiles/parks and recreation.png" alt="">
+        </div>
+      </div>
+       </div>
+      <div class="nav-btn-5">
+      <button id="prev-btn-5">&lt;</button>
+      <button id="next-btn-5">&gt;</button>
+       </div>
+    </section>
+
+
+  </body>
+</html>
