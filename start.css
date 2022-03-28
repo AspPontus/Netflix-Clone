@@ -578,6 +578,7 @@ a {
   .box-vid-stack {
     width: 20%;
     margin-left: 38%;
+    
   }
 
   .boxshot-stack {
@@ -842,5 +843,20 @@ a {
   }
   h2{
     padding: .2em;
+  }
+  .dwn-box-text-stack{
+    padding-left:1rem;
+  }
+  .downloading-stack {
+    font-size: 70%;
+    padding: .3rem; 
+  }
+  .dwn-title-stack{
+ 
+    padding: 0rem; 
+  }
+  .box-vid-stack {
+    margin-left: 85%;
+    width: 40%;
   }
 }
